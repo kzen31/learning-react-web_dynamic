@@ -1,3 +1,163 @@
 .App {
   text-align: center;
 }
+
+nav {
+  height: 70px;
+  display: flex;
+  padding: 20px 36px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.nav--logo {
+  max-width: 100px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero--picture {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  /* margin: 10em; */
+  flex-grow: 1;
+}
+
+.hero--picture>div {
+  width: 100px;
+  overflow: hidden;
+}
+
+.hero--picture>div>div {
+  display: flex;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 12px 6px;
+}
+
+.hero--picture-row1 {
+  margin-bottom: 20%;
+}
+
+.hero--picture-row1>div {
+  height: 150px;
+}
+
+.hero--picture-row2 {
+  margin-bottom: 5%;
+}
+
+.hero--picture-row2>div:nth-child(1) {
+  height: 100px;
+}
+
+.hero--picture-row2>div:nth-child(1) {
+  height: 150px;
+}
+
+.hero--picture-row2>div:nth-child(2) {
+  height: 200px;
+}
+
+.hero--picture-row3 {
+  border: none;
+}
+
+.hero--picture-row3>div:nth-child(1) {
+  height: 250px;
+}
+
+.hero--picture-row3>div:nth-child(2) {
+  height: 150px;
+}
+
+.hero--picture-row4 {
+  border: none;
+  margin-top: 5%;
+}
+
+.hero--picture-row4>div:nth-child(1) {
+  height: 150px;
+}
+
+.hero--picture-row4>div:nth-child(2) {
+  height: 100px;
+}
+
+.hero--picture-row4>div:nth-child(2)>img {
+  height: 150px;
+}
+
+.hero--picture-row4>div:nth-child(3) {
+  height: 100px;
+}
+
+.hero--picture-row5 {
+  margin-top: 15%;
+}
+
+.hero--picture-row5>div:nth-child(1) {
+  height: 120px;
+}
+
+.hero--picture-row5>div:nth-child(1)>img {
+  height: 150px;
+}
+
+.hero--picture-row5>div:nth-child(2) {
+  height: 120px;
+}
+
+.hero--text {
+  text-align: left;
+  margin: 0 30px;
+  padding-right: 30vw;
+}
+
+.hero--text>h1 {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.hero--text>p {
+  margin-top: 0;
+}
+
+.card {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card--column {
+  width: 160px;
+  height: auto;
+  overflow: hidden;
+  align-items: center;
+  margin: 5px;
+}
+
+.card--column>div {
+  border-radius: 10px;
+  overflow: hidden;
+  height: auto;
+  height: 300px;
+}
+
+.card--column>div>img {
+  height: 100%;
+  object-fit: contain;
+}
+
+.card--column> p {
+  margin: 0;
+  text-align: left;
+}
